@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "gatsby-theme-shadow-relative-import",
+  "workspaces": [
+    "packages/*",
+    "example"
+  ]
+}
