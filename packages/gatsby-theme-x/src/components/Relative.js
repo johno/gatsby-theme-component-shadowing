@@ -1,5 +1,9 @@
 import React from 'react'
+import styled from '@emotion/styled'
 
-export default () => (
-  <div style={{ padding: '20px', backgroundColor: 'red' }} />
-)
+const Relative = styled.div`
+  padding: 20px;
+  color: ${props => props.theme.secondary}
+`
+
+export default () => <Relative />

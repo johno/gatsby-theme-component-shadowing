@@ -1,5 +1,10 @@
 import React from 'react'
 
-import Shadowed from '../components/Shadowed'
+import Layout from '../components/Layout'
+import Box from '../components/Box'
 
-export default () => <Shadowed />
+export default () => (
+  <Layout>
+    <Box />
+  </Layout>
+)
